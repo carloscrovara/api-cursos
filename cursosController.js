@@ -1,7 +1,10 @@
 //llamar a mi Base de datos
+let data = require("./cursosModel");
+
+
 
 function GetAllCursos(req, res){
-    res.json("funciona");
+    res.json(data);
 }
 
 
