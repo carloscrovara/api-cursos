@@ -24,8 +24,8 @@ function getOneCurso(req, res){
   
     let nuevoCurso = {
       id: nuevoId,
-      nombreCurso: req.body.nombre,
-      duracion: req.body.precio,
+      nombreCurso: req.body.nombreCurso,
+      duracion: req.body.duracion,
     };
 
     data.push(nuevoCurso);
@@ -41,8 +41,8 @@ function getOneCurso(req, res){
     if (curso) {
       let modificarCurso = {
         id: req.body.id,
-        nombreCurso: req.body.nombre,
-        duracion: req.body.precio,
+        nombreCurso: req.body.nombreCurso,
+        duracion: req.body.duracion,
       };
   
       let encontrado = data.indexOf(curso);
