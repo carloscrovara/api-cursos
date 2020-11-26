@@ -2,7 +2,7 @@
 Api de Listado de Cursos 
 
 
-#Funcionalidad: 
+# Funcionalidad: 
 
 - Mostrar Cursos
 - Mostrar un curso
@@ -11,7 +11,7 @@ Api de Listado de Cursos
 - Borrar un curso
 
 
-#Estructura:
+# Estructura:
 
 - Index: LLamado a paquetes(express, body-parser, nodemon), configuración express, body-parser, llamado a rutas y puerto de escucha del server.
 - rutas(cursosRoutes.js): Rutas de mi api
